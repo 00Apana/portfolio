@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ridwaanullahi | Frontend Developer</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+   <nav>
+    <div class="container">
+        <div class="logo">Apana</div>
+        
+        <ul id="navLinks">
+           <li><a href="#home" class="nav-link">Home</a></li>
+           <li><a href="#about" class="nav-link">About</a></li>
+           <li><a href="#skill" class="nav-link">Skills</a></li>
+           <li><a href="#project" class="nav-link">Project</a></li>
+           <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!--Hamburger icon for mobile-->
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+        </button>
+    </div>
+   </nav>
+
+   <!--Hero Section-->
+   <section id="Home" class="hero">
+    <div class="hero-content">
+        <div class="hero-image">
+          <img src="./image/adio.jpg" alt="hero-profile" class="profile-img">
+        </div>
+        <h1>Ridwaanullahi Apana</h1>
+        <h4>I am a 
+          <div class="title-wrapper">
+            <div class="title-list">
+                <span>Web Developer</span>
+                <span>Computer Engineering</span>
+            </div>
+          </div>
+        </h4>
+        <div>
+            <button id="hireme"><a href="#contact">Hire me</a></button>
+        </div>
+    </div>
+   </section>
+
+
+   <!--About Section-->
+   <section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>Hello! I am a Computer Engineering Student with a passion for web development.I love the challenge of turning ideas into reality through code.My journey as a developer started with HTML,CSS,and JavaScript,and I'm continuously expanding my skillset.</p>
+            <p >I believe in writting clean,maintainable code and creating user experiences that are both beautiful and functional. When I'm not coding, you will find me exploring new technologies,contributing to an Open-source project,or learning about latest web development trends.</p>
+        </div>
+    </div>
+   </section>
+
+
+   <!--Skills Section-->
+   <section id="skill">
+    <div class="container">
+        <h2>My Skills</h2>
+        <div class="skills-grod">
+            <div class="skill-item">HTML5</div>
+            <div class="skill-item">CSS3</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">Git & GitHub</div>
+            <div class="skill-item">Responsive Design</div>
+            <div class="skill-item">Dom Manipulation</div>
+        </div>
+    </div>
+   </section>
+
+   
+   <!--project Secion-->
+   <section id="project">
+    <div class="project-card">
+        <img src="food2.jpg" alt="Restaurant Site">
+        <h3>interactive Restaurant Site</h3>
+        <p> A fully functional Restaurant website built with HTML5 and CSS.Featurs include home,about,order and contact section.</p>
+        <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+        </div>
+        <div class="project-links">
+            <a href="https://00apana.github.io/food-site/">Live Demo</a>
+            <a href="https://github.com/00Apana/meridian-table-website" target="_blank">View Code link</a>
+        </div>
+    </div>
+    <div class="project-card">
+        <img src="cal.jpg" alt="calculator interface">
+        <h3>interactive Calculator</h3>
+        <p>A fully functional Calculator,built with HTML,CSS and JavaScript</p>
+        <div class="tech-stack">
+            <span>HTML</span>
+            <Span>CSS</Span>
+            <span>JavaScript</span>
+        </div>
+        <div class="project-link">
+            <a href=" https://00apana.github.io/C_Alculator/">Live Demo</a>
+            <a href="https://github.com/00apana/C_Alculator" target="_blank">View Code Link</a>
+        </div>
+    </div>
+    <div class="project-card">
+        <img src="phar.jpg" alt="yoma pharmacy">
+        <h3>interactive Pharmacy Site</h3>
+        <p>A fully functional Pharmacy website built with HTML5,CSS and JavaScript.Featurs include home,shop,prescription,abou and contact section.</p>
+        <div class="tech-stack">
+            <span>HTML</span>
+            <Span>CSS</Span>
+            <span>JavaScript</span>
+        </div>
+        <div class="project-link">
+            <a href="https://00apana.github.io/yoma-pharmacy-store/"></a>
+            <a href="https://github.com/00apana/yoma-pharmacy-store" target="_blank">View Code Link</a>
+        </div>
+    </div>
+   </section>
+   <section id="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <p>If you’d like to work together or have any questions, feel free to reach out.</p>
+
+    <form 
+      name="contact" 
+      method="POST" 
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      class="contact-form"
+    >
+      <!-- Netlify required hidden input -->
+      <input type="hidden" name="form-name" value="contact">
+
+      <!-- Honeypot field (spam protection) -->
+      <input type="hidden" name="bot-field">
+
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+      <p>Email: 
+        <a href="mailto:ridwanullahiapana@gmail.com">
+          ridwanullahiapana@gmail.com
+        </a>
+      </p>
+      <p>GitHub: 
+        <a href="https://github.com/00apana" target="_blank">
+          github.com/00apana
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 Ridwanullahi Apana. All rights reserved.</p>
+
+    <div class="footer-links">
+      <a href="mailto:ridwanullahiapana@gmail.com">Email</a>
+      <a href="https://github.com/00apana" target="_blank">GitHub</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+<script src="port.js"></script>
+</body>
+</html>
